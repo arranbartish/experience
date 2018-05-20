@@ -1,0 +1,13 @@
+[ignore]
+.*/build/.*
+.*/coverage/.*
+
+[include]
+src/*.js
+
+[libs]
+
+[options]
+suppress_type=ESLintContext
+suppress_type=ESLintJSXAttribute
+suppress_type=JSXOpeningElement

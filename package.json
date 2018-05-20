@@ -1,0 +1,29 @@
+{
+  "name": "arran-bartish-online",
+  "version": "1.0.0",
+  "description": "Arran Bartish Online",
+  "engines": {
+    "npm": ">=3"
+  },
+  "scripts": {
+    "package:application": "cd application && npm run package",
+    "prepackage": "npm run install:all",
+    "package": "npm-run-all -p package:application",
+    "install:application": "cd application && npm install",
+    "preinstall:all": "npm install",
+    "install:all": "npm-run-all -p install:application ",
+    "application:start": "cd application && npm start",
+    "prestart": "npm run install:all",
+    "start": "npm-run-all -p -r application:start"
+  },
+  "author": "Arran Bartish",
+  "license": "MIT",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.3"
+  }
+}
