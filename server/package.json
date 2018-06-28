@@ -1,0 +1,28 @@
+{
+  "name": "arran-bartish-online-server",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Not used in prod, but is used for local environment to validate prod artifacts",
+  "engines": {
+    "npm": ">=6"
+  },
+  "scripts": {
+    "cross-env": "cross-env",
+    "start": "cross-env APP_LOCATION=../application/dist node ./server.js",
+    "start:watch": "cross-env APP_LOCATION=../application/dist nodemon ./server.js"
+  },
+  "author": "Arran Bartish",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "nodemon": "^1.11.0",
+    "cross-env": "^5.2.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
