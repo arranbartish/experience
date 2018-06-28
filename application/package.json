@@ -13,7 +13,7 @@
     "package": "babel-node tools/build.js",
     "start-message": "babel-node tools/startMessage.js",
     "prestart": "npm run start-message",
-    "start": "npm-run-all -p -r test:watch start:dev lint:watch",
+    "start": "npm-run-all -p -r test:watch start:dev",
     "lint": "eslint --fix src/**/*.js && eslint --fix 'src/**/*.js'",
     "lint:watch": "eslint-watch --fix src/**/*.js && eslint --fix 'src/**/*.js'",
     "clean-dist": "npm run remove-dist",
