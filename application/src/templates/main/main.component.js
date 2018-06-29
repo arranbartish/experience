@@ -4,7 +4,6 @@ import {connect} from 'react-redux';
 import {withRouter} from 'react-router';
 import {setUser} from '../../store/actions/user/user.action';
 import {Navbar} from "../../components/navbar/navbar.component";
-import {Portrait} from "../../components/portrait/portrait.component";
 import {Footer} from "../footer/footer.template";
 
 import './main.scss';
@@ -33,7 +32,6 @@ class Main extends Component {
       <div className="main">
         <Navbar/>
         <div className="container">
-          <Portrait/>
           {this.props.children}
         </div>
         <Footer/>

@@ -6,9 +6,12 @@
     "npm": ">=3"
   },
   "scripts": {
+    "test:application": "cd application && npm run test:cover",
     "package:application": "cd application && npm run package",
     "prepackage": "npm run install:all",
-    "package": "npm-run-all -p package:application",
+    "package": "npm-run-all  package:application",
+    "pretest": "npm run install:all",
+    "test": "npm-run-all test:*",
     "install:application": "cd application && npm install",
     "preinstall:all": "npm install",
     "install:all": "npm-run-all -p install:application ",
