@@ -4,8 +4,8 @@ import { shallow } from 'enzyme';
 
 describe('About container', () => {
 
-  const name = 'Arran';
-  const component = shallow(<AboutComponent user={name}/>);
+  const user = {};
+  const component = shallow(<AboutComponent user={user}/>);
   it('will be defined', () => {
     expect(AboutComponent).toBeDefined();
   });
