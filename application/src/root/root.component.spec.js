@@ -1,4 +1,4 @@
-import React from 'react';
+import  React from 'react';
 import {mount} from 'enzyme';
 import Root from './root.component';
 import configureMockStore from 'redux-mock-store';
