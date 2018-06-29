@@ -1,16 +1,16 @@
-import {HomeComponent} from './home.container';
+import {AboutComponent} from './about.container';
 import React from 'react';
 import { shallow } from 'enzyme';
 
-describe('Home container', () => {
+describe('About container', () => {
 
-  const user = {};
-  const component = shallow(<HomeComponent user={user} />);
-  it('should be defined', () => {
-    expect(HomeComponent).toBeDefined();
+  const name = 'Arran';
+  const component = shallow(<AboutComponent user={name}/>);
+  it('will be defined', () => {
+    expect(AboutComponent).toBeDefined();
   });
 
-  it('should render', () => {
-    expect(component.find('.home').exists()).toBeTruthy();
+  it('will render', () => {
+    expect(component.find('.about').exists()).toBeTruthy();
   });
 });
