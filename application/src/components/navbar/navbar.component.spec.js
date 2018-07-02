@@ -1,4 +1,4 @@
-import {Navbar} from './navbar.component';
+import { Navbar } from './navbar.component';
 import React from 'react';
 import { shallow } from 'enzyme';
 
