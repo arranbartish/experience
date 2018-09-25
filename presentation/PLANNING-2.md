@@ -49,13 +49,22 @@ A well implemented approval testing approach is meant to be fast to approve. Thi
 
 ## Conclusion
 
+
 ### Signal the end
 
 - We're still seem to test the styles the same way we test the business logic. It's different and needs different approaches
-- Approval testing is a way, given the right context, to cheaply initiate discussions early in a change, and ensure we remember the outcomes of those discussions
-- Explore frameworks like approvals. If you have a way to define a "golden master", then more off the self components could help you. These components are generic and are not web framework specific
-- Testing appropriately for the system under test is always key to making suites maintainable. Approval testing is now in your toolbox and can be used to help you keep your style.
 
+### Reiterate central message
+
+- Approval testing is a way, given the right context, to cheaply initiate discussions early in a change, and ensure we remember the outcomes of those discussions
+
+### Provide a call to action
+
+- Explore frameworks like approvals. If you have a way to define a "golden master", then more off the self components could help you. These components are generic and are not web framework specific
+
+### Provide a clincher
+
+- Testing appropriately for the system under test is always key to making suites maintainable. Approval testing is now in your toolbox and can be used to help you keep your style.
 
 
 # Introduction-old
