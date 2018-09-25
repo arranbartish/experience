@@ -74,5 +74,5 @@ Twitter : @arranbartish
 [goonies-sloth]: ./images/sloth.jpg
 [sick-unicorn]: ./images/unicorn-sick.jpeg
 [profile-picture]: https://www.gravatar.com/avatar/6809b059aefba706f879bc4606f3dcdc?size=200
-[magical-pegacorn]: ./images/magic.png
-[sick-pegacorn]: ./images/magic-lost.jpg
+[magical-pegacorn]: ./images/Unicorn-Image-1.jpg
+[sick-pegacorn]: ./images/Unicorn-Image-2.jpg
