@@ -9,6 +9,8 @@
   "scripts": {
     "rm": "rm",
     "cp": "cp",
+    "jest": "jest",
+    "storybook": "start-storybook -p 6006",
     "preinstall": "node tools/nodeVersionCheck.js",
     "package": "babel-node tools/build.js",
     "start-message": "babel-node tools/startMessage.js",
@@ -23,7 +25,8 @@
     "test": "jest",
     "test:cover": "npm run test -- --coverage ",
     "test:watch": "npm run test -- --watch",
-    "start:dev": "webpack-dev-server --config webpack.config.dev.js --history-api-fallback --inline --progress --hot"
+    "start:dev": "webpack-dev-server --config webpack.config.dev.js --history-api-fallback --inline --progress --hot",
+    "build-storybook": "build-storybook"
   },
   "author": "Arran Bartish",
   "license": "MIT",
@@ -53,6 +56,10 @@
     "redux-thunk": "2.1.0"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^3.4.8",
+    "@storybook/addon-links": "^3.4.8",
+    "@storybook/cli": "3.4.8",
+    "@storybook/react": "^3.4.8",
     "autoprefixer": "6.5.4",
     "babel-cli": "6.18.0",
     "babel-core": "6.20.0",
@@ -116,6 +123,8 @@
     "replace": "0.3.0",
     "rimraf": "2.5.4",
     "sass-loader": "6.0.2",
+    "storybook": "1.0.0",
+    "storybook-chromatic": "1.0.0",
     "style-loader": "0.13.1",
     "url-loader": "0.5.7",
     "webpack": "^2.2.1",
